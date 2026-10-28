@@ -1,4 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="robot" viewBox="0 0 24 24">
+    <path d="M11 2h2v3h-2V2ZM5 8a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3V8Zm3-1a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H8Zm-5 3h2v5H3v-5Zm16 0h2v5h-2v-5ZM9 10a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm6 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm-5 5h4v2h-4v-2Z"/>
+  </symbol>
   <symbol id="linkedin" viewBox="0 0 24 24">
     <path d="M4.5 3.5a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM3 9h3v12H3zm5 0h2.9v1.6h.1A3.2 3.2 0 0 1 14 8.8c3.1 0 3.7 2 3.7 4.7V21h-3v-6.7c0-1.6 0-3.6-2.2-3.6s-2.5 1.7-2.5 3.5V21H8z"/>
   </symbol>
