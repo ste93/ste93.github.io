@@ -74,12 +74,12 @@ a:focus-visible { outline: 3px solid #78a76c; outline-offset: 4px; }
 }
 .about-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(250px, 360px);
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 300px);
   align-items: center;
-  gap: clamp(40px, 8vw, 110px);
+  gap: clamp(40px, 7vw, 90px);
 }
 .about-copy { max-width: 900px; }
-.portrait { width: 100%; max-width: 360px; justify-self: end; margin: 0; }
+.portrait { width: 100%; max-width: 300px; justify-self: end; margin: 0; }
 .portrait img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; }
 .portrait figcaption { margin-top: 9px; color: var(--muted); font-size: 11px; }
 .eyebrow {
@@ -190,7 +190,7 @@ h2 {
   .site-nav a { padding-block: 8px 2px; font-size: 11px; }
   .page { width: min(100% - 36px, 1360px); padding-block: 55px 65px; }
   .about-layout { grid-template-columns: 1fr; gap: 34px; }
-  .portrait { width: min(100%, 340px); justify-self: start; }
+  .portrait { width: min(100%, 230px); justify-self: center; }
   .list-item { grid-template-columns: 43px minmax(0, 1fr); gap: 12px; }
 }
 @media (max-width: 390px) {
