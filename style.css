@@ -79,7 +79,7 @@ a:focus-visible { outline: 3px solid #78a76c; outline-offset: 4px; }
 }
 .about-copy { max-width: 900px; }
 .portrait { width: 100%; max-width: 360px; justify-self: end; margin: 0; }
-.portrait img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; }
+.portrait img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; }
 .portrait figcaption { margin-top: 9px; color: var(--muted); font-size: 11px; }
 .eyebrow {
   margin: 0 0 17px;
