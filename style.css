@@ -24,7 +24,7 @@ body {
 a { color: inherit; }
 a:focus-visible { outline: 3px solid #78a76c; outline-offset: 4px; }
 .site-header, .site-footer {
-  width: min(100% - 48px, 960px);
+  width: min(100% - 80px, 1440px);
   margin-inline: auto;
 }
 .site-header {
@@ -66,7 +66,7 @@ a:focus-visible { outline: 3px solid #78a76c; outline-offset: 4px; }
 }
 .site-nav a:hover, .site-nav a[aria-current="page"] { color: var(--green); }
 .page {
-  width: min(100% - 48px, 760px);
+  width: min(100% - 80px, 1360px);
   flex: 1;
   margin: 0 auto;
   padding-block: clamp(60px, 10vh, 105px) 85px;
@@ -96,14 +96,14 @@ h2 {
   letter-spacing: -.04em;
 }
 .lead {
-  max-width: 660px;
+  max-width: 1000px;
   margin-bottom: 20px;
   color: var(--ink);
   font-size: clamp(18px, 2.5vw, 21px);
   line-height: 1.6;
 }
 .body-copy {
-  max-width: 650px;
+  max-width: 900px;
   margin-bottom: 15px;
   color: var(--muted);
   font-size: 15px;
@@ -135,7 +135,7 @@ h2 {
 .profile-links { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-top: 36px; }
 .profile-links a { display: inline-flex; align-items: center; gap: 7px; }
 .profile-icon { width: 17px; height: 17px; flex: 0 0 17px; fill: currentColor; }
-.list-intro { margin-bottom: 28px; color: var(--muted); font-size: 15px; line-height: 1.75; }
+.list-intro { max-width: 1000px; margin-bottom: 28px; color: var(--muted); font-size: 15px; line-height: 1.75; }
 .item-list { border-top: 1px solid var(--line); }
 .list-item {
   display: grid;
@@ -172,12 +172,12 @@ h2 {
 }
 
 @media (max-width: 600px) {
-  .site-header, .site-footer { width: min(100% - 36px, 760px); }
+  .site-header, .site-footer { width: min(100% - 36px, 1440px); }
   .site-header { min-height: 70px; flex-wrap: wrap; gap: 0 15px; padding-block: 12px; }
   .wordmark { font-size: 13px; }
   .site-nav { width: 100%; justify-content: space-between; gap: 8px; }
   .site-nav a { padding-block: 8px 2px; font-size: 11px; }
-  .page { width: min(100% - 36px, 760px); padding-block: 55px 65px; }
+  .page { width: min(100% - 36px, 1360px); padding-block: 55px 65px; }
   .list-item { grid-template-columns: 43px minmax(0, 1fr); gap: 12px; }
 }
 @media (max-width: 390px) {
